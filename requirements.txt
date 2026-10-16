@@ -1,0 +1,9 @@
+# 本项目运行所需的第三方依赖
+# 安装：pip install -r requirements.txt
+# （源码运行还需要 ffmpeg，请另装，见 README）
+
+# GUI 框架（需 Python >= 3.10）
+PySide6>=6.8
+
+# 下载引擎（建议经常升级以保持站点支持，可 pip install -U yt-dlp）
+yt-dlp
